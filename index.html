@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Responsive viewport meta tag (Mobile scaling ke liye sabse zaroori) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HERO / MAIN SECTION -->
+  <div class="main">
+    <div class="box"></div>
+
+    <nav>
+      <!-- Netflix Logo -->
+      <img src="assets/img/logo.svg" alt="Netflix" />
+      <div class="nav-actions">
+        <select class="language">
+          <option value="en">English</option>
+          <option value="hi">हिन्दी</option>
+        </select>
+        <button class="signin-btn">Sign In</button>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <span>Unlimited movies, TV shows and more</span>
+      <span>Starts at ₹149. Cancel anytime.</span>
+      <span>Ready to watch? Enter your email to create or restart your membership.</span>
+
+      <!-- Hero Email CTA -->
+      <div class="email-form">
+        <div class="input-container">
+          <input type="email" id="hero-email" class="email-input" placeholder=" " required />
+          <label for="hero-email" class="email-label">Email address</label>
+        </div>
+        <button class="btn-submit" type="submit">
+          Get Started
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- CURVED BORDER LINE -->
+  <div class="line">
+    <span>Trending Now</span>
+  </div>
+
+  <!-- CONTENT SECTION -->
+  <div class="content">
+
+    <!-- TRENDING SLIDER -->
+    <section class="trending-section">
+      <div class="trending-slider">
+        
+        <div class="trending-card">
+          <span class="rank-number">1</span>
+          <div class="poster-wrapper">
+            <img src="assets/img/m1.webp" alt="Trending 1" />
+          </div>
+        </div>
+
+        <div class="trending-card">
+          <span class="rank-number">2</span>
+          <div class="poster-wrapper">
+            <img src="assets/img/m2.webp" alt="Trending 2" />
+          </div>
+        </div>
+
+        <div class="trending-card">
+          <span class="rank-number">3</span>
+          <div class="poster-wrapper">
+            <img src="assets/img/m3.webp" alt="Trending 3" />
+          </div>
+        </div>
+
+        <div class="trending-card">
+          <span class="rank-number">4</span>
+          <div class="poster-wrapper">
+            <img src="assets/img/m4.webp" alt="Trending 4" />
+          </div>
+        </div>
+
+        <div class="trending-card">
+          <span class="rank-number">5</span>
+          <div class="poster-wrapper">
+            <img src="assets/img/m5.webp" alt="Trending 5" />
+          </div>
+        </div>
+         <div class="trending-card">
+          <span class="rank-number">6</span>
+          <div class="poster-wrapper">
+            <img src="assets/img/m6.webp" alt="Trending 5" />
+          </div>
+        </div>
+         <div class="trending-card">
+          <span class="rank-number">7</span>
+          <div class="poster-wrapper">
+            <img src="assets/img/m7.webp" alt="Trending 5" />
+          </div>
+        </div>
+         <div class="trending-card">
+          <span class="rank-number">8</span>
+          <div class="poster-wrapper">
+            <img src="assets/img/m8.webp" alt="Trending 5" />
+          </div>
+        </div>
+         <div class="trending-card">
+          <span class="rank-number">9</span>
+          <div class="poster-wrapper">
+            <img src="assets/img/m5.webp" alt="Trending 5" />
+          </div>
+        </div>
+         <div class="trending-card">
+          <span class="rank-number">10</span>
+          <div class="poster-wrapper">
+            <img src="assets/img/m10.webp" alt="Trending 5" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- REASONS TO JOIN CARDS -->
+    <h2 class="section-title" style="margin-top: 50px;">More reasons to join</h2>
+    <div class="cards">
+      <div class="card1">
+        <h1>Enjoy on your TV</h1>
+        <span>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
+      </div>
+
+      <div class="card2">
+        <h1>Download your shows to watch offline</h1>
+        <span>Save your favourites easily and always have something to watch.</span>
+      </div>
+
+      <div class="card3">
+        <h1>Watch everywhere</h1>
+        <span>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</span>
+      </div>
+
+      <div class="card4">
+        <h1>Create profiles for kids</h1>
+        <span>Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</span>
+      </div>
+    </div>
+
+    <!-- FAQ SECTION -->
+    <section class="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="boxes">
+        <div class="faqbox">
+          <span>What is Netflix?</span>
+        </div>
+        <div class="faqbox">
+          <span>How much does Netflix cost?</span>
+        </div>
+        <div class="faqbox">
+          <span>Where can I watch?</span>
+        </div>
+        <div class="faqbox">
+          <span>How do I cancel?</span>
+        </div>
+        <div class="faqbox">
+          <span>What can I watch on Netflix?</span>
+        </div>
+        <div class="faqbox">
+          <span>Is Netflix good for kids?</span>
+        </div>
+      </div>
+
+      <!-- BOTTOM CTA FORM -->
+      <div class="cta-wrapper">
+        <p class="cta-title">Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="email-form">
+          <div class="input-container">
+            <input type="email" id="cta-email" class="email-input" placeholder=" " required />
+            <label for="cta-email" class="email-label">Email address</label>
+          </div>
+          <button class="btn-submit" type="submit">
+            Get Started
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="netflix-footer">
+    <p class="contact-info">
+      Questions? Call <a class="phone-link" href="tel:000-800-919-1694">000-800-919-1694</a>
+    </p>
+
+    <div class="footer-links-grid">
+      <a href="#">FAQ</a>
+      <a href="#">Help Centre</a>
+      <a href="#">Account</a>
+      <a href="#">Media Centre</a>
+      <a href="#">Investor Relations</a>
+      <a href="#">Jobs</a>
+      <a href="#">Ways to Watch</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy</a>
+      <a href="#">Cookie Preferences</a>
+      <a href="#">Corporate Information</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Speed Test</a>
+      <a href="#">Legal Notices</a>
+      <a href="#">Only on Netflix</a>
+    </div>
+
+    <div class="lang-picker-wrapper">
+      <select class="lang-select">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+      </select>
+    </div>
+
+    <p class="country-text">Netflix India</p>
+    <p class="recaptcha-text">This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
+  </footer>
+
+</body>
+</html>
